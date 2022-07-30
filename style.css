@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.boba {
+  background-image: url("./boba imges/Berry-boba-tea-1024x652.jpg");
+  width: 1024px;
+  height: 652px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: rgb(255, 236, 239);
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  top: 0;
+}
+
+/* .boba-text {
+  transition: all 0s linear;
+} */
+
+.boba-text:hover img {
+  transform: scale(105%);
+}
+
+ul {
+  list-style-type: none;
+  height: 200px;
+  width: 25%;
+  /* float: left; */
+  height: 0;
+}
+
+.home {
+  height: 30px;
+  position: absolute;
+  top: 25px;
+  left: 25rem;
+}
+
+.about {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 25px;
+  left: 30rem;
+}
+
+.numbers {
+  width: 50;
+  height: 30px;
+  position: absolute;
+  top: 25px;
+  left: 35rem;
+}
+
+.contact {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 25px;
+  left: 41rem;
+}
+
+.alltext {
+  background: linear-gradient(
+    rgba(243, 250, 252, 0.5),
+    rgba(188, 248, 208, 0.5),
+    rgba(255, 236, 239)
+  );
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(190, 72, 245);
+}
+
+a:visited {
+  color: rgba(248, 63, 94, 0.5);
+}
+
+a:hover {
+  background-color: rgba(188, 248, 208, 0.5);
+  border-radius: 100%;
+}
