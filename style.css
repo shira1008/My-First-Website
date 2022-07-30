@@ -79,6 +79,12 @@ ul {
   text-align: center;
   background-attachment: fixed;
 }
+p {
+  /* border: 1px solid red; */
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
 
 a {
   text-decoration: none;
